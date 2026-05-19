@@ -5,15 +5,17 @@ import ErrorBoundary from "./components/ErrorBoundary.vue";
 
 <template>
   <ErrorBoundary>
-  <RouterView v-slot="{ Component }">
-    <Suspense>
-      <component :is="Component" />
+    <RouterView v-slot="{ Component }">
+      <Suspense>
+        <template #default>
+          <component :is="Component" />
+        </template>
 
-      <template #fallback>
-        <LoadingSpinner />
-      </template>
-    </Suspense>
-  </RouterView>
+        <template #fallback>
+          <LoadingSpinner />
+        </template>
+      </Suspense>
+    </RouterView>
   </ErrorBoundary>
 </template>
 

@@ -16,9 +16,11 @@ export default {
 </script>
 
 <template>
-  <div v-if="hasError">
-    <h2>Something went wrong.</h2>
-  </div>
+  <div>
+    <div v-if="hasError">
+      <h2>Something went wrong.</h2>
+    </div>
 
-  <slot v-else />
+    <slot v-else />
+  </div>
 </template>
