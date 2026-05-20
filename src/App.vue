@@ -11,9 +11,9 @@ import ErrorBoundary from "./components/ErrorBoundary.vue";
           <component :is="Component" />
         </template>
 
-        <template #fallback>
-          <LoadingSpinner />
-        </template>
+          <template #fallback>
+            <LoadingSpinner />
+          </template>
       </Suspense>
     </RouterView>
   </ErrorBoundary>
