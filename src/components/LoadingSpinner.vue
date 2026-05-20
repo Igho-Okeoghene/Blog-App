@@ -1,13 +1,7 @@
 <template>
-  <div class="loading">
-    Loading...
+  <div class="flex items-center justify-center min-h-screen">
+    <div
+      class="h-14 w-14 animate-spin rounded-full border-4 border-blue-500 border-t-transparent"
+    ></div>
   </div>
 </template>
-
-<style scoped>
-.loading {
-  text-align: center;
-  padding: 40px;
-  font-size: 20px;
-}
-</style>
