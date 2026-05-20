@@ -1,6 +1,16 @@
-# .
+# Vue Blog App
 
-This template should help get you started developing with Vue 3 in Vite.
+This project is an assignment from ALTSchool Africa.
+
+## Assignment
+Build a simple Blog Application with Vue Router.
+
+- Home Page displays a list of blog posts fetched from the API.
+- Each post shows a title and a brief excerpt, with a link to its Detail Page.
+- Detail Page displays the full content of the selected blog post (can be dynamically generated).
+- Users can return to the Home Page from any page or go back to the previous page.
+- Handle 404 errors with a fallback page for non-existent routes.
+- Implement Error Boundary and Suspense with lazy loading.
 
 ## Recommended IDE Setup
 
@@ -42,3 +52,6 @@ npm run build
 ```sh
 npm run lint
 ```
+## Links
+  - Source URL [Igho-Okeoghene/Blog-App](https://github.com/Igho-Okeoghene/Blog-App)
+  - Live URL [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
