@@ -54,4 +54,4 @@ npm run lint
 ```
 ## Links
   - Source URL [Igho-Okeoghene/Blog-App](https://github.com/Igho-Okeoghene/Blog-App)
-  - Live URL [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
+  - Live URL [https://vue-modern-blogg.netlify.app/](https://vue-modern-blogg.netlify.app/)
